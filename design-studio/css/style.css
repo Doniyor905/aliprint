@@ -1,0 +1,573 @@
+    @font-face {
+        font-family: "Oswald";
+        src: url(../font/Oswald-Bold.ttf);
+        font-weight: 700;
+    }
+    
+    @font-face {
+        font-family: "Oswald";
+        src: url(../font/Oswald-Regular.ttf);
+        font-weight: 400;
+    }
+    
+    @font-face {
+        font-family: "Oswald";
+        src: url(../font/Oswald-Medium.ttf);
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: "Myriad";
+        src: url(../font/8143.otf);
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: "Oswald";
+        background-color: #f1f1f1;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 1144px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    
+    .nav__list {
+        display: flex;
+        align-items: center;
+        color: #000;
+        list-style: none;
+    }
+    
+    .nav__link {
+        margin-left: 20px;
+        color: #000;
+        text-decoration: none;
+        font-weight: 700;
+        background-color: #F1F1F1;
+        width: 115px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12), -9px -9px 15px #FFFFFF;
+        border-radius: 14px;
+        text-transform: uppercase;
+        font-size: 14px;
+        transition: all ease .5s;
+    }
+    
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+    
+    .ploigrafiya__link a {
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .nav__link:hover {
+        box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.12), inset -9px -9px 15px #FFFFFF;
+        cursor: pointer;
+    }
+    
+    .header img {
+        width: 100%;
+    }
+    
+    .status__title {
+        color: #ce1212;
+        text-align: center;
+        font-size: 70px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    .status__subtitle {
+        font-size: 20px;
+        color: #ce1212;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 500;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .status__item {
+        width: 450px;
+        border: 5px solid #ce1212;
+        border-radius: 50px;
+    }
+    
+    .status__item-title {
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #ce1212;
+        padding: 14px 0px;
+        border-radius: 40px 40px 0px 0px;
+        font-size: 50px;
+        color: #fff;
+    }
+    
+    .status__item-price {
+        text-align: center;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 30px;
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    
+    .status__item-price span {
+        font-size: 25px;
+    }
+    
+    .work__time {
+        font-size: 50px;
+        background-color: #ce1212;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .work__time-number {
+        font-size: 40px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    
+    .status__item-economy {
+        font-size: 50px;
+        background-color: #ce1212;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .status__item-economy-number {
+        font-size: 40px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    
+    .status__item-link {
+        width: 100%;
+        background-color: #ce1212;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        border-radius: 0px 0px 40px 40px;
+        color: #fff;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-decoration: none;
+        transition: .5s;
+        border-top: 5px solid transparent;
+    }
+    
+    .status__item-link:hover {
+        background-color: transparent;
+        border-top: 5px solid #ce1212;
+        color: #ce1212;
+    }
+    
+    .status__inner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .status__item {
+        margin-bottom: 30px;
+    }
+    
+    .formBlock input {
+        font-family: "Oswald";
+        width: 100%;
+        height: 60px;
+        background: #f1f1f1;
+        padding: 10px 15px;
+        border: 0px;
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12), -9px -9px 15px #FFFFFF;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        transition: .5s;
+    }
+    
+    .formBlock input:focus {
+        outline: none;
+        box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.12), inset -9px -9px 15px #FFFFFF;
+    }
+    
+    .formBlock label {
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    
+    .formBlock button {
+        background: #f1f1f1;
+        border: 0px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-size: 18px;
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12), -9px -9px 15px #FFFFFF;
+        width: 25%;
+        margin: 0 auto;
+        font-family: "Myriad";
+        transition: .5s;
+        cursor: pointer;
+    }
+    
+    .formBlock button:hover {
+        box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.12), inset -9px -9px 15px #FFFFFF;
+    }
+    
+    .formBlock textarea {
+        width: 100%;
+        resize: vertical;
+        height: 200px;
+        border: 0px;
+        background: #f1f1f1;
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12), -9px -9px 15px #FFFFFF;
+        border-radius: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 15px;
+        transition: .5s;
+    }
+    
+    .formBlock textarea:focus {
+        outline: none;
+        box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.12), inset -9px -9px 15px #FFFFFF;
+    }
+    
+    .error-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ce1212;
+        font-size: 18px;
+    }
+    
+    .button-center {
+        text-align: center;
+    }
+    
+    .form {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .popup {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        font-family: "Myriad";
+    }
+    
+    .popups.active {
+        pointer-events: auto;
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.465, 0.183, 0.153, 0.946), opacity 0.3s cubic-bezier(0.465, 0.183, 0.153, 0.946);
+        transition: transform 0.3s cubic-bezier(0.465, 0.183, 0.153, 0.946), opacity 0.3s cubic-bezier(0.465, 0.183, 0.153, 0.946);
+    }
+    
+    .form__title {
+        text-align: center;
+        color: #ce1212;
+        font-size: 40px;
+    }
+    
+    .popups {
+        position: fixed;
+        will-change: transform, opacity;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        opacity: 0;
+        pointer-events: none;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding-top: 60px;
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+        -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.465, 0.183, 0.153, 0.946), opacity 0.1s cubic-bezier(0.465, 0.183, 0.153, 0.946);
+        transition: transform 0.1s cubic-bezier(0.465, 0.183, 0.153, 0.946), opacity 0.1s cubic-bezier(0.465, 0.183, 0.153, 0.946);
+    }
+    
+    .popup__inner {
+        background: #f1f1f1;
+        width: 50%;
+        padding: 20px 50px;
+        margin: 0 auto;
+        border-radius: 30px;
+    }
+    
+    .popup__item {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .popup__close {
+        font-size: 30px;
+        color: #000;
+        font-family: sans-serif;
+        cursor: pointer;
+        text-align: right;
+    }
+
+    .trafik__subtitle {
+        width: 900px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 20px;
+        color: #ce1212;
+        font-weight: 500;
+    }
+
+    .trafik__title {
+        text-align: center;
+        color: #ce1212;
+        font-size: 70px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    tr {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .trafik__inner {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .trafik__item-block {
+        width: 350px;
+        height: 85px;
+        background-color: #ce1212;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-bottom: 3px solid #000;
+        color: #fff;
+    }
+
+    .trafik__item-block-white {
+        background-color: #fff;
+        width: 350px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-bottom: 3px solid #000;
+    }
+
+
+    @media (max-width:1494px) {
+        .form {
+            width: 100%;
+        }
+    }
+
+    @media (max-width:1080px) {
+        .trafik__item-block {
+            width: 290px;
+        }
+
+        .trafik__item-block-white {
+            width: 290px;
+        }
+    }
+    
+    @media (max-width:929px) {
+        .status__item {
+            width: 600px;
+        }
+        .status__inner {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .trafik__subtitle {
+            width: 500px;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 17px;
+            color: #ce1212;
+            font-weight: 500;
+        }
+
+        .trafik__item-block-white {
+            width: 235px;
+        }
+        .trafik__item-block {
+            width: 235px;
+        }
+
+    }
+
+    @media (max-width:868px) {
+        .popup__inner {
+            width: 75%;
+        }
+    }
+
+    @media (max-width:726px) {
+        .trafik__item-block {
+            width: 200px;
+            font-size: 25px;
+        }
+
+        .trafik__item-block-white {
+            width: 200px;
+            font-size: 25px;
+        }
+    }
+    @media (max-width:616px) {
+        .form__title {
+            font-size: 30px;
+        }
+
+        .popup__inner {
+            width: 95%;
+        }
+
+        .formBlock button {
+            width: 50%;
+        }
+
+       .trafik__item-white {
+           display: none;
+       }
+
+       .trafik__subtitle {
+           width: 100%;
+       }
+    }
+
+    @media (max-width:566px) {
+        .formBlock input {
+            height: 45px;
+        }
+
+        .formBlock textarea {
+            height: 140px;
+        }
+
+        .trafik__title {
+            font-size: 50px;
+        }
+    }
+    
+    @media (max-width:431px) {
+        .status__item {
+            width: 300px;
+        }
+        .status__item-price {
+            font-size: 30px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .status__item-title {
+            font-size: 29px;
+        }
+        .status__item-price {
+            font-size: 30px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .status__item-price span {
+            font-size: 20px;
+        }
+        .work__time {
+            font-size: 29px;
+        }
+        .work__time-number {
+            font-size: 25px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .status__item-economy {
+            font-size: 29px;
+        }
+        .status__item-economy-number {
+            font-size: 29px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .status__item-link {
+            height: 76px;
+            font-size: 24px;
+        }
+        .status__subtitle {
+            font-size: 14px;
+        }
+        .status__title {
+            font-size: 50px;
+        }
+
+        .popup__inner {
+
+            padding: 20px 20px;
+
+        }
+
+        .trafik__title {
+            font-size: 40px;
+        }
+
+        
+    }
+
+    @media (max-width:380px) {
+        .form__title {
+            font-size: 23px;
+        }
+        .trafik__item-block {
+            width: 154px;
+            font-size: 22px;
+        }
+    }

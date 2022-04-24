@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/buyurtma-berish.css">
+    <title>Форма обратная связь</title>
+</head>
+<body>
+    <form method="POST" action="contact.php" enctype="multipart/form-data" data-error>			
+        <div>
+            <div class="formBlock">
+                <label>Ism</label>
+                <input type="text" name="name" minlength="0" maxlength="30" data-error="Ism uzunligi yemadi">
+                <span class="error-text"></span>
+            </div>
+
+            <div class="formBlock">
+                <label>Company</label>
+                <input type="text" name="company" minlength="3" maxlength="100" data-error="kompaniya nomi uzunligi yemadi">
+                <span class="error-text"></span>
+            </div>
+
+            <div class="formBlock">
+                <label>Tel</label>
+                <input type="tel" name="phone" minlength="0" maxlength="20" data-error="telefon nomer uzunligi yemadi">
+                <span class="error-text"></span>
+            </div>
+
+            <div class="formBlock">
+                <label>File</label>
+                <input type="file" name="name" minlength="0" maxlength="30" data-error="Ism uzunligi yemadi" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt,.avi,.ogg,.m4a,.mov,.mp3,.mp4,.mpg,.wav,.wmv,.cdr,.psd,.ai,.eps,.svg">
+                <span class="error-text"></span>
+            </div>
+
+            <div class="formBlock">
+                <label>Srok</label>
+                <input type="text" name="srok" minlength="0" max="30" data-error="srok uzunligi yemadi">
+                <span class="error-text"></span>
+            </div>
+
+            <div class="formBlock">
+                <button>Send</button>
+            </div>
+        </div>
+
+    </form>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="//code-ya.jivosite.com/widget/mO93g6OXla" async></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+@media (max-width: 1418px) {
+    .form {
+        width: 100%;
+    }
+    .formBlock input {
+        height: 40px;
+    }
+}
+
+@media (max-width:1127px) {
+    .tashqi-reklama__item img {
+        width: 500px;
+    }
+    .tashqi-reklama__item-text {
+        width: 100%;
+    }
+    .avtotransport__item img {
+        width: 591px;
+    }
+    .intro {
+        height: 559px;
+    }
+}
+
+@media (max-width:1029px) {
+    .poligrafiya__item img {
+        width: 600px;
+    }
+    .tashqi-reklama__item-title {
+        font-size: 165px;
+    }
+    .aksessuarlar__item img {
+        width: 500px;
+    }
+    .rollup-text-size {
+        font-size: 160px;
+    }
+    .avtotransport__item img {
+        width: 450px;
+    }
+    .avtotransport__item-title {
+        font-size: 155px;
+    }
+    .avtotransport-text {
+        margin: 0;
+    }
+    .partner__item {
+        margin: 15px;
+    }
+    .nav__text {
+        margin-left: 46px;
+    }
+}
+
+@media (max-width: 960px) {
+    .tashqi-reklam {
+        margin-bottom: 50px;
+    }
+    .kalendar__width img {
+        width: 400px;
+    }
+    .burger__menu {
+        display: block;
+        font-size: 25px;
+    }
+    .logo__mobile {
+        display: block;
+        margin-left: 75px;
+    }
+    .logo {
+        display: none;
+    }
+    .poligrafiya__item-title {
+        font-size: 200px;
+    }
+    .poligrafiya__item-text {
+        font-size: 15px;
+    }
+    .tashqi-reklama__item img {
+        width: 420px;
+    }
+    .tashqi-reklama__item-text {
+        font-size: 16px;
+    }
+    .aksessuarlar__item img {
+        width: 380px;
+    }
+    .aksessuarlar__item-title {
+        font-size: 200px;
+    }
+    .avtotransport__item-title {
+        font-size: 140px;
+    }
+    .avtotransport-text {
+        font-size: 14px;
+    }
+    .avtotransport__item img {
+        width: 360px;
+    }
+    .popup__inner {
+        width: 75%;
+    }
+    .menu__inner {
+        display: none;
+    }
+    .nav__list {
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        background-color: #fff;
+        top: 0;
+        left: -100%;
+        z-index: 3;
+        display: block;
+        padding: 10px 20px;
+        transition: .5s;
+    }
+    .nav__list.active {
+        left: 0;
+    }
+    .opacity__bg {
+        transition: .10s;
+    }
+    .opacity__bg.active {
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100vh;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 84px;
+        z-index: 2;
+    }
+    .nav__link {
+        margin-left: 0;
+        line-height: 2;
+        font-size: 20px;
+    }
+    .nav__text {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .close__menu {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .nav__list li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .icon__link {
+        font-size: 20px;
+        display: block;
+        transform: rotate(0deg);
+        transition: .5s;
+    }
+    .burger__menu-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .burger__menu-text {
+        display: none;
+    }
+    .burger__menu-title.active span {
+        color: red;
+        transform: rotate(180deg);
+    }
+}
+
+@media (max-width:859px) {
+    .poligrafiya__item-title {
+        font-size: 170px;
+    }
+    .poligrafiya__item img {
+        width: 555px;
+    }
+    .kalendar__width img {
+        width: 400px;
+    }
+    .bloknot__width {
+        width: 500px;
+    }
+    .tashqi-reklama__item-subtitle {
+        font-size: 55px;
+    }
+    .aksessuarlar-text {
+        font-size: 13px;
+    }
+    .aksessuarlar__item img {
+        width: 400px;
+    }
+    .aksessuarlar__item-title {
+        font-size: 170px;
+    }
+    .partner__item {
+        margin: 10px;
+    }
+}
+
+@media (max-width:798px) {
+    .poligrafiya__item img {
+        width: 470px;
+    }
+    .kalendar__width img {
+        width: 400px;
+    }
+    .karton__font-size {
+        font-size: 40px;
+    }
+    .korgazma-sten-font-size {
+        font-size: 162px;
+    }
+    .tashqi-reklama__item img {
+        width: 360px;
+    }
+    .kepka-img-width img {
+        width: 353px;
+    }
+    .partner__item {
+        margin: 10px;
+    }
+    .intro {
+        height: 359px;
+    }
+}
+
+@media (max-width:700px) {
+    /* Descktop */
+    .poligrafiya__item img {
+        width: 440px;
+    }
+    .kalendar__width img {
+        width: 400px;
+    }
+    .poligrafiya__item-title {
+        font-size: 160px;
+    }
+    .poligrafiya__item-text {
+        font-size: 13px;
+    }
+    .poligrafiya__decktop {
+        display: none;
+    }
+    .tashqi-reklama__link {
+        font-size: 15px;
+    }
+    .karton__font-size {
+        font-size: 35px;
+    }
+    .korgazma-sten-font-size {
+        font-size: 141px;
+    }
+    .tashqi-reklama-desckopt {
+        display: none;
+    }
+    .tashqi-reklama__title {
+        font-size: 38px;
+    }
+    .mobile__poligrafiya {
+        display: block;
+    }
+    .mobile__poligrafiya-img {
+        max-width: 300px;
+    }
+    .mobile__poligrafiya-img img {
+        width: 100%;
+    }
+    .mobile__tashqi-reklama {
+        display: block;
+    }
+    .mobile__tashqi-reklama-img {
+        max-width: 300px;
+    }
+    .mobile__tashqi-reklama img {
+        width: 100%;
+    }
+    .mobile__aksessuarlar {
+        display: block;
+    }
+    .mobile__aksessuarlar-img {
+        max-width: 300px;
+    }
+    .mobile__aksessuarlar-img img {
+        width: 100%;
+    }
+    .aksessuarlar-desckopt {
+        display: none;
+    }
+    .mobile__avtotransport {
+        display: block;
+    }
+    .mobile__avtotransport {
+        display: block;
+    }
+    .mobile__avtotransport-img {
+        max-width: 300px;
+    }
+    .mobile__avtotransport-img img {
+        width: 100%;
+    }
+    .avtotransport__descktop {
+        display: none;
+    }
+    .partner__title {
+        font-size: 35px;
+        letter-spacing: 8px;
+    }
+    .avtotransport__title {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    .form__title {
+        font-size: 30px;
+    }
+    .mobile__nav-link {
+        font-size: 21px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav__list {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo__mobile {
+        margin-left: 30px;
+    }
+    .mobile__poligrafiya-item {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .mobile__tashqi-reklama-item {
+        width: 75%;
+    }
+    .mobile__aksessuarlar-item {
+        width: 75%;
+    }
+    .mobile__avtotransport-item {
+        width: 75%;
+    }
+    .poligrafiya__title {
+        font-size: 38px;
+    }
+    .tashqi-reklama__title {
+        font-size: 30px;
+    }
+    .aksessuarlar__title {
+        font-size: 30px;
+    }
+    .mobile__nav-link {
+        font-size: 15px;
+    }
+    .popup__inner {
+        width: 100%;
+    }
+    .formBlock button {
+        width: 50%;
+    }
+    .intro {
+        height: 241px;
+    }
+}
+
+@media (max-width:386px) {
+    .tashqi-reklama__title {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    .form__title {
+        font-size: 25px;
+    }
+    .popup__inner {
+        padding: 20px 25px;
+    }
+    .carta {
+        padding: 0;
+    }
+}
