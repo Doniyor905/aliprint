@@ -199,6 +199,11 @@
 }
 
 @media (max-width:798px) {
+
+    .formBlock input {
+        margin-top: 4px;
+        margin-bottom: 6px;
+    }
     .poligrafiya__item img {
         width: 470px;
     }

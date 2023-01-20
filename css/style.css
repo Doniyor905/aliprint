@@ -69,7 +69,13 @@ li {
     visibility: hidden;
     transition: .2s ease;
 }
+.loader-wrap--img {
+    max-width: 100px;
+}
 
+.loader-wrap--img img{
+    width: 100%;
+}
 .container {
     width: 100%;
     max-width: 1200px;
@@ -134,8 +140,9 @@ li {
     top: 62px;
     left: 0;
     width: 100%;
-    height: 70%;
+    /* height: 100%; */
     display: none;
+    padding-bottom: 20px;
     z-index: 3;
 }
 
@@ -159,8 +166,8 @@ li {
 }
 
 .menu__position-link {
-    padding: 10px 20px;
-    cursor: pointer;
+    padding: 5px 20px;
+    /* cursor: pointer; */
 }
 
 .menu__position-link a {
@@ -1099,8 +1106,9 @@ li {
     background: #f1f1f1;
     padding: 10px 15px;
     border: 0px;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12), -9px -9px 15px #FFFFFF;
-    border-radius: 30px;
+    /* box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12), -9px -9px 15px #FFFFFF; */
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
     margin-top: 20px;
     margin-bottom: 20px;
     transition: .5s;
@@ -1108,11 +1116,11 @@ li {
 
 .formBlock input:focus {
     outline: none;
-    box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.12), inset -9px -9px 15px #FFFFFF;
+    /* box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.12), inset -9px -9px 15px #FFFFFF; */
 }
 
 .formBlock label {
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     text-align: left;
 }
@@ -1123,8 +1131,8 @@ li {
     border-radius: 30px;
     padding: 10px 20px;
     font-size: 18px;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12), -9px -9px 15px #FFFFFF;
-    width: 25%;
+    /* box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12), -9px -9px 15px #FFFFFF; */
+    width: 40%;
     margin: 0 auto;
     font-family: "Myriad";
     transition: .5s;
@@ -1132,7 +1140,7 @@ li {
 }
 
 .formBlock button:hover {
-    box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.12), inset -9px -9px 15px #FFFFFF;
+    /* box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.12), inset -9px -9px 15px #FFFFFF; */
 }
 
 .formBlock textarea {
@@ -1141,7 +1149,8 @@ li {
     height: 143px;
     border: 0px;
     background: #f1f1f1;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12), -9px -9px 15px #FFFFFF;
+    border: 1px solid #cdcdcd;
+    /* box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12), -9px -9px 15px #FFFFFF; */
     border-radius: 30px;
     margin-top: 6px;
     margin-bottom: 8px;
@@ -1151,7 +1160,7 @@ li {
 
 .formBlock textarea:focus {
     outline: none;
-    box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.12), inset -9px -9px 15px #FFFFFF;
+    /* box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.12), inset -9px -9px 15px #FFFFFF; */
 }
 
 .error-text {
@@ -1164,10 +1173,11 @@ li {
 
 .button-center {
     text-align: center;
+    width: 100%;
 }
 
 .form {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -1207,7 +1217,6 @@ li {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
-    padding-top: 60px;
     -webkit-transform: scale(1.15);
     transform: scale(1.15);
     -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.465, 0.183, 0.153, 0.946), opacity 0.1s cubic-bezier(0.465, 0.183, 0.153, 0.946);
@@ -1216,10 +1225,11 @@ li {
 
 .popup__inner {
     background: #f1f1f1;
-    width: 50%;
-    padding: 20px 50px;
+    width: 40%;
+    padding: 10px 20px;
     margin: 0 auto;
     border-radius: 30px;
+    margin: 10px;
 }
 
 .popup__item {
